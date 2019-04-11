@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Dark Side</title>
+  <link rel="stylesheet" href="../css/Holamundo.css">
+  <link rel="icon" href="img/logosf.ico" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/fontello.css">
+  <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+  <link rel="stylesheet" type="text/css" href="../css/menu.css">
+  <link rel="stylesheet" type="text/css" href="../css/info.css">
+    
+    <link rel="../css/Holamundo.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-database.js"></script>
+  <style type="text/css">
+    header{
+        background: #C7BE39;
+      }
+      .menu ul {
+        background: #C7BE39;
+      }
+      .menu a:hover{
+        color:#FFF010; 
+      }
+      h2,h3 {
+        color:rgb(199, 190,57); 
+        text-align: center;
+        margin-top: 20px;
+      }
+  </style>
+  
+</head>
+<body>
+  <header>
+    <h1 style="margin-right: 10%">TheDarkSide</h1>
+    <input type="checkbox" id="menu-bar">
+    <label class="icon-menu" for="menu-bar"></label>
+    <nav class="menu">
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../nosotros.html">Nosotros</a></li>
+        <li class="submenu"><a href="#">Proyectos</a>
+          <ul>
+          <li><a href="../mantenimiento.html">TDStudent</a></li>
+          <li><a href="../mantenimiento.html">Kodiak Bear</a></li>
+          <li><a href="../mantenimiento.html">Aragon's traveler</a></li>
+          </ul>
+        </li>
+        <li class="submenu"><a href="#">Recursos</a>
+          <ul>
+            <li><a href="../informacion.html">Información</a></li>
+            <li><a href="../mantenimiento.html">Programas</a></li>
+            <li><a href="../glosario.html">Glosario</a></li>
+          </ul>
+        </li>
+        <li class="submenu"><a href="#">Actividades</a>
+          <ul>
+            <li><a href="../cursos.html">Cursos</a></li>
+            <li><a href="../mantenimiento.html">Talleres</a></li>
+            <li><a href="../mantenimiento.html">Competencias</a></li>
+          </ul>
+        </li>
+        <li><a href="../mantenimiento.html">Contacto</a></li>
+        <li><a href="../mantenimiento.html">Comunidades</a></li>
+        <li id="sesion"><a href="inis.html">Iniciar Sesión</a></li>
+        <li id="cerrar"><a href="#" onclick="logout()">Cerrar Sesion</a></li>
+        <li id="usuario"></li>
+      </ul>
+    </nav>
+  </header>
+  <script src="../js/menu.js"></script>
+  <script src="../js/sesion.js"></script>
+
+
+  
+  
+  
+  <h2>Hola Mundo</h2>
+ 
+  
+
+  
+  <input type="checkbox" id="spoiler2">
+  <label class="imagen" for="spoiler2"><h3>LISP (1959)</h3></label>
+  <div class="spoiler">
+      <img style="display:block;margin: 0 auto;" src="../img/lisp.gif">
+
+      
+  </div>
+        
+         
+  <input type="checkbox" id="spoiler3">
+  <label class="imagen" for="spoiler3"><h3>Pascal (1971)</h3></label>
+      <div class="spoiler">
+        <img style="display: block; margin: 0 auto;" src="../img/pascal.gif">
+      </div>
+  
+  <input type="checkbox" id="spoiler">
+  <label class="imagen" for="spoiler"><h3>C (1972)</h3></label>
+      <div class="spoiler">
+       <img style="display: block; margin: 0 auto; " src="../img/c.gif">
+      </div>
+ 
+  <input type="checkbox" id="spoiler4">
+  <label class="imagen" for="spoiler4"><h3>Smalltalk (1980)</h3></label>
+      <div class="spoiler">
+       <img style="display: block; margin: 0 auto; " src="../img/Smalltalk.gif">
+      </div>
+    
+   <input type="checkbox" id="spoiler1">
+  <label class="imagen" for="spoiler1"><h3>C++ (1983)</h3></label>
+      <div class="spoiler">
+       <img style="display: block; margin: 0 auto; " src="../img/C++.gif">
+      </div>
+  
+  
+      
+  
+  <div class="tds-inf">
+  <h3>Eiffel (1986)</h3>
+    <h4>class Hola</h4>
+    <h4>create</h4>
+    <h4>&nbsp;&nbsp;make</h4>
+    <h4>feature</h4>
+    <h4>&nbsp;&nbsp;make is</h4>
+    <h4>&nbsp;&nbsp;&nbsp;&nbsp;do</h4>
+    <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;io.put_string ("Hola Mundo!%N")</h4>
+    <h4>&nbsp;&nbsp;&nbsp;&nbsp;end</h4>
+    <h4>end</h4>
+  </div>
+  
+  <div class="tds-inf">
+  <h3>Perl (1987)</h3>
+    <h4>print"Hola Mundo";</h4>
+  </div>
+  
+  <div class="tds-inf">
+  <h3>Python</h3>
+    print "Hola Mundo"
+  </div>
+  
+  <div class="tds-inf">
+  <h3>Ruby (1993)</h3>
+    <h4>puts "Hola Mundo"</h4>
+  </div>
+  
+  <div class="tds-inf">
+  <h3>Lua (1993)</h3>
+    <h4>print("Hola Mundo")</h4>
+  </div>
+  
+  <div class="tds-inf">
+  <h3>HTML(1993)</h3>
+    <h4>&lt;html></h4>
+    <h4>&lt;head></h4>
+    <h4>&lt;title>Hola&lt;title></h4>
+    <h4>&lt;/head></h4>
+    <h4>&lt;body></h4>
+    <h4>&nbsp;&nbsp;&lt;h1>Hola Mundo&lt;/h1></h4>
+    <h4>&lt;/body></h4>
+    <h4>&lt;html></h4>
+  </div>
+  
+  <div class="tds-inf">
+  <h3>Java (1995)</h3>
+    <h4>public class Hola</h4>
+    <h4>{</h4>
+    <h4>&nbsp;&nbsp;public static void main(String args[ ])</h4>
+    <h4>&nbsp;&nbsp;{</h4>
+    <h4>&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Hola Mundo");</h4>
+    <h4>&nbsp;&nbsp;}</h4>
+    <h4>}</h4>
+  </div>
+  
+  <div class="tds-inf">
+  <h3>JavaScript (1995)</h3>
+    <h4>&lt;script></h4>
+    <h4>&nbsp;&nbsp;document.write("Hola Mundo");</h4>
+    <h4>&lt;script></h4>
+  </div>
+  
+  <div class="tds-inf">
+  <h3>PHP (1995)</h3>
+    <h4>&lt;?php</h4>
+    <h4>echo"Hola Mundo";</h4>
+    <h4>?></h4>
+  </div>
+  
+  <div class="tds-inf">
+  <h3>C# (2000)</h3>
+    <h4>using System;</h4>
+    <br>
+    <h4>class Hola</h4>
+    <h4>{</h4>
+    <h4>&nbsp;&nbsp;static void Main()</h4>
+    <h4>&nbsp;&nbsp;{</h4>
+    <h4>&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine("Hola Mundo");</h4>
+    <h4>&nbsp;&nbsp;}</h4>
+    <h4>}</h4>
+  </div>
+  
+  <div class="tds-inf">
+  <h3>Go (2009)</h3>
+  <h4>package main</h4>
+  <h4>import "fmt"</h4>
+  <h4>func main()</h4>
+  <h4>{</h4>
+  <h4>&nbsp;&nbsp;fmt.println("Hola Mundo")</h4>
+  <h4>}</h4>
+  </div>
+
+
+<footer class="pie">
+  <div class="contenedor">
+    <p class="copy" style="clear: both;">The Dark Side &copy; 2019</p>
+    <img src="../img/logoa.png">
+    <div class="sociales">  
+      <a class="icon-facebook-squared" target="_blank" href="https://www.facebook.com/TheDarkSideAragon/"></a>
+      <a class="icon-instagram" target="_blank" href="https://www.instagram.com/thedarksidearagon/"></a>
+      <a class="icon-twitter" target="_blank" href="https://twitter.com/SideAragon"></a>
+      <a class="icon-mail-alt" href="mailto:thedarksidearagon@gmail.com"></a>
+      <a class="icon-whatsapp" href="tel:+525587329819"></a>
+    </div>    
+  </div>  
+</footer>
+</body>
+</html>
